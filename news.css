@@ -1,0 +1,119 @@
+div.wrapper{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    width: 55em;
+    height: 34em;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+div.mobile-wrapper{
+    display: none;
+}
+img.right{
+    width: 22em;
+}
+td.img{
+    padding-right: 10px;
+}
+td{
+    padding-bottom: 1px;
+}
+div.left{
+    margin: 0px 60px 0px 10px;
+}
+div.left img{
+    width: 20px;
+}
+body{
+    background-color: #232742;
+}
+button{
+    display: block;
+}
+h1{
+    color: #232742;
+    font-family: Roboto;
+}
+p{
+    font-family: Roboto;
+    font-size: 16px;
+}
+input{
+    width: 28em;
+    height: 3em;
+    border-radius: 8px;
+    border-color: #000;
+    border-width: 1px;
+}
+a{
+    padding: 20px 70px;
+    margin: 20px 0px 0px 0px;
+    color: #fff;
+    background-color: #232742;
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: Roboto;
+    transition: 1s;
+}
+a:hover{
+    background-image: linear-gradient(to right, #ff5475, #ff6743);
+    transition: 1s;
+}
+p.email{
+    color: #232742;
+    font-family: Roboto;
+    font-weight: 800;
+}
+input:hover{
+    cursor: pointer;
+}
+@media((min-width: 375px) and (max-width: 768px) ){
+    div.mobile-wrapper{
+        display: contents;
+        box-sizing: border-box;
+        background-color: #fff;
+    }
+    body{
+        background-color: #fff;
+        margin: 0 auto;
+    }
+    div.wrapper{
+        display: none;
+    }
+    div.mobile-wrapper img{
+        width: 30em;
+    }
+    div.mobile-wrapper  p{
+        padding-left: 30px;
+    }
+    div.mobile-wrapper   h1{
+        margin: 40px 4px 0px 30px;
+        color: #232742;
+        font-family: Roboto;
+    }
+    div.mobile-wrapper table img{
+        width: 30px;
+    }
+    div.mobile-wrapper table{
+        margin: 0px 15px;
+    }
+     p.email{
+        margin: 0px 4px 10px 15px;
+    }
+    input{
+        margin: 0px 4px 0px 15px;
+    }
+    a.mobile{
+        padding: 20px 40px;
+        margin: 10px 0px 0px 0px;
+        color: #fff;
+        background-color: #232742;
+        display: block;
+        text-decoration: none;
+        border-radius: 10px;
+        font-family: Roboto;
+    }
+}
